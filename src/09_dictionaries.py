@@ -42,7 +42,7 @@ waypoints.append(dict({"lat": 22, "lon": 124, "name": "somewhere"}))
 # waypoints list.
 
 # YOUR CODE HERE
-waypoints[0]["lon"] = -130
+waypoints[0]["name"] = -130
 waypoints[0]["name"] = "not a real place"
 
 # Write a loop that prints out all the field values for all the waypoints
