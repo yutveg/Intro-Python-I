@@ -46,7 +46,7 @@ def print_tuple(tup):  # Prints 1 2 5 7 99, one per line
             for i in tup:
                 print(i)
     except TypeError:
-        print(tup)
+        print("test", tup)
 
 
 print_tuple(t)
